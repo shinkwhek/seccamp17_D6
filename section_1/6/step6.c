@@ -18,7 +18,7 @@ int main (int argv, char *argc[]) {
     size += A_GB;
   }
 
-  printf("memory size: %lu MB\n", size/A_GB);
+  printf("memory size: %llu GB\n", size/A_GB);
 
   return 0;
 }
