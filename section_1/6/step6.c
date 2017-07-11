@@ -11,12 +11,13 @@ int main (int argv, char *argc[]) {
   unsigned long long size = 0;
   unsigned char *mem;
 
-  do {
+  while(1) {
     mem = malloc(A_MB);
-    memset(mem, 255, A_MB);
-  //  printf("address: 0x%p\n", mem);
-    size += A_MB;
-  } while(mem);
+    if (mem == NULL) break;
+    memset(mem, 0, A_MB);
+    printf("%p\n", mem);
+    size += A_GB;
+  };
 
   printf("memory size: %llu MB\n", size/A_MB);
 
