@@ -1,6 +1,6 @@
 a.out
 *.o
-./*/.main.ko.cmd
-./*/.main.o.cmd
-./*/.main.mod.o.cmd
-./*/.tmp_versions
+section_2/1/.main.ko.cmd
+section_2/1/.main.o.cmd
+section_2/1/.main.mod.o.cmd
+section_2/1/.tmp_versions
