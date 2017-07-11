@@ -4,3 +4,5 @@ section_2/1/.main.ko.cmd
 section_2/1/.main.o.cmd
 section_2/1/.main.mod.o.cmd
 section_2/1/.tmp_versions
+section_2/1/Module.symvers
+section_2/1/modules.order
