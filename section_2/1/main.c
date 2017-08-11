@@ -1,17 +1,15 @@
 #include <linux/module.h>
 #include <linux/init.h>
 
-MODULE_LICENSE("GPL");
-
 static int greeting_init(void)
 {
-      printk(KERN_ALERT "Hello\n");
-          return 0;
+  printk("Hello\n");
+  return 0;
 }
 
 static void greeting_exit(void)
 {
-      printk(KERN_ALERT "Goodbye\n");
+  printk("bye\n");
 }
 
 module_init(greeting_init);
